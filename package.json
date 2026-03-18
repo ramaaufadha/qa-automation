@@ -1,0 +1,19 @@
+{
+  "name": "qa-assignment-rama",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:api": "node automation/api-test/run-reqres-api-tests.mjs",
+    "test:api:report": "node automation/api-test/run-reqres-api-tests.mjs",
+    "api:report": "node automation/api-test/run-reqres-api-tests.mjs",
+    "api:report:open": "npx.cmd playwright open automation/reports/api/api-report.html",
+    "test:ui": "playwright test --config automation/ui-test/playwright.config.mjs",
+    "test:ui:headed": "playwright test --headed --config automation/ui-test/playwright.config.mjs",
+    "test:ui:report": "playwright show-report automation/ui-test/reports/html",
+    "ui:report:open": "npx.cmd playwright open automation/reports/ui/ui-report.html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}
