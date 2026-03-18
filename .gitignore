@@ -6,6 +6,7 @@ reports/
 screenshots/
 videos/
 trace/
+data/
 trace.zip
 *.trace
 *.log
