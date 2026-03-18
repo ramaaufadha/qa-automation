@@ -88,6 +88,10 @@ API report output:
 6. (Optional) Open custom UI timestamp report:
    - `npm.cmd run ui:report:open`
 
+## How to Run Generate CSV (Bonus)
+1. Run Generate csv:
+   - `npm.cmd run generate:csv`
+
 UI timestamp report output:
 - `automation/reports/ui/ui-report.html`
 - `automation/reports/ui/ui-report.json`
